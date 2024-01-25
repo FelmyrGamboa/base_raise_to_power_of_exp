@@ -19,6 +19,9 @@
 # i.e. (5 *5 * 5 *5 = 625)
 
 #Create a function called exponent(base,exp) that returns an int value of base raises to the power of exp
+def exponent(base,exp):
+    result = base**exp
+    return result
 
 #Create a variable for the given bases and exponents
 
