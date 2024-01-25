@@ -24,6 +24,11 @@ def exponent(base,exp):
     return result
 
 #Create a variable for the given bases and exponents
+base_1 = 2
+base_2 = 5
+
+exp_1 = 5
+exp_2 = 4
 
 #Call out the function and get the result
 
