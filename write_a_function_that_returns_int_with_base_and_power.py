@@ -35,15 +35,17 @@ result_1 = exponent(base_1,exp_1)
 result_2 = exponent(base_2,exp_2)
 
 #Create a variable to display the long method of computation
-
+long_result_1 = f"{base_1} *" * (exp_1 - 1)  + f"{base_1}"
+long_result_2 = f"{base_2} *" * (exp_2 - 1) + f"{base_2}"
 
 #Display the result with the long example
+
+#Case 1
 print("Case 1: \nbase =", base_1 ," \nexponent =", exp_1)
-print(base_1, "raises to the power of", exp_1, ":", result_1)
+print(base_1, "raise to the power of", exp_1, ":", result_1)
+print("i.e.", f"({long_result_1} = {result_1})")
 
+#Case 2
 print("\nCase 2:\nbase =", base_2 ," \nexponent =", exp_2)
-print(base_2, "raises to the power of", exp_2, ":", result_2)
-
-
-
-
+print(base_2, "raise to the power of", exp_2, ":", result_2)
+print("i.e.", f"({long_result_2} = {result_2})")
