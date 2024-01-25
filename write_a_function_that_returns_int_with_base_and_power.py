@@ -31,6 +31,8 @@ exp_1 = 5
 exp_2 = 4
 
 #Call out the function and get the result
+result_1 = exponent(base_1,exp_1)
+result_2 = exponent(base_2,exp_2)
 
 #Create a variable to display the long method of computation
 
